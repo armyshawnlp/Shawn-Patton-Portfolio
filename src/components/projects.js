@@ -30,7 +30,7 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                  "url(https://i.imgur.com/XqLvALV.png) center / cover"
               }}
             >
               Robofriends
@@ -42,7 +42,8 @@ class Projects extends Component {
               https://reactrobotfriends.netlify.com/
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button href="https://www.linkedin.com/in/shawnpattonaaa/" rel="noopener noreferrer"
+                  target="_blank" colored>GitHub</Button>
               <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>

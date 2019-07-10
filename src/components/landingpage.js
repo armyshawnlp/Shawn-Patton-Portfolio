@@ -21,12 +21,14 @@ class Landing extends Component {
               <hr />
               <div className="social-links">
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/shawnpattonaaa/" target="https://www.linkedin.com/in/shawnpattonaaa/">
+                <a href="https://www.linkedin.com/in/shawnpattonaaa/" rel="noopener noreferrer"
+                  target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
                 {/* GitHub */}
 
-                <a href="https://github.com/armyshawnlp" target="_blank">
+                <a href="https://github.com/armyshawnlp" rel="noopener noreferrer"
+                  target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
