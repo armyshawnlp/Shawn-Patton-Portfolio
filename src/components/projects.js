@@ -27,7 +27,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#0F05E3",
                 height: "176px",
                 background:
                   "url(https://i.imgur.com/XqLvALV.png) center / cover"
@@ -36,16 +36,29 @@ class Projects extends Component {
               Robofriends
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-
-              https://reactrobotfriends.netlify.com/
+              <ul>
+                <li>React</li>
+                <li>Tachyons</li>
+              </ul>
             </CardText>
             <CardActions border>
-              <Button href="https://www.linkedin.com/in/shawnpattonaaa/" rel="noopener noreferrer"
-                  target="_blank" colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                href="https://github.com/armyshawnlp/React-Friends-Search"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
+                GitHub
+              </Button>
+
+              <Button
+                href="https://reactrobotfriends.netlify.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
