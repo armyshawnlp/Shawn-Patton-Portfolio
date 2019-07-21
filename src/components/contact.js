@@ -15,12 +15,7 @@ class Contact extends Component {
               
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I have recently graduated from the University of Houston with a
-              degree in Computer Information Systems. I served 8 years in the
-              Active Army. Trained to repair electronics that required a
-              security clearance and became the Network/System Admin of a
-              company. I enojy espending time with my boys, Houston sports, and
-              working on home projects.
+             
             </p>
           </Cell>
           <Cell col={6}>
@@ -48,8 +43,8 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID
+                   
+              
                   </ListItemContent>
                 </ListItem>
               </List>

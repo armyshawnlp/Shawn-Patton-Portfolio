@@ -68,7 +68,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#0F05E3",
                 height: "176px",
                 background:
                   "url(https://i.imgur.com/8e09Tnr.png) center / cover"
@@ -199,7 +199,7 @@ class Projects extends Component {
               <ul>
                 <li>Ruby</li>
                 <li>Javascript</li>
-                <li>Bootstrap</li>
+                <li>DB</li>
               </ul>
             </CardText>
             <CardActions border>
