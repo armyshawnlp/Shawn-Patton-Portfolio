@@ -64,56 +64,43 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 2 */}
+          {/* Project 2 - Da Krewe */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                  "url(https://i.imgur.com/8e09Tnr.png) center / cover"
               }}
             >
-              React Project #2
+              Event Page
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            <ul>
+            <li>Current Project</li>
+              <li>Created for client</li>
+              <li>ReactJS</li>
+              <li> React-Bootstrap</li>
+              <li> Auth/DB in progress</li>
+              </ul>
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              
+              <Button
+              href="http://dakreweduroux.s3-website.us-east-2.amazonaws.com"
+              rel="noopener noreferrer"
+                target="_blank"
+                colorered
+              
+              >Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+         
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -162,19 +149,23 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/*Ruby Project 2 */}
+          {/*Ruby Project 2/ Phone repair */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#0F05E3",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                  "url(https://i.imgur.com/X9zy2ml.png) center / cover"
               }}
             >
               Ticketing System
             </CardTitle>
             <CardText>
+            <li>Ruby</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>PostgreSQL</li>
             Final class project created to demonstrate the ability to create, update, and delete orders for a mobile repair shop. There are multiple drop downs that allows the users to create an order and it will automatically update the subtotal, tax, and total amount. Also, users can create a new account and login/logout. For the manager view, there are 3 additional links that can be accessed separate from the employee view. The tickets can add additional harware to repair. All information is available in graphs.
             </CardText>
             <CardActions border>
@@ -186,30 +177,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                component: "videoiframe center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+        
         </div>
       );
     } else if (this.state.activeTab === 2) {
@@ -264,7 +232,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is Angular</h1>
+          <h4> </h4>
         </div>
       );
     }
@@ -280,7 +248,7 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Ruby</Tab>
           <Tab>Java</Tab>
-          <Tab>Angular</Tab>
+      
         </Tabs>
         <Grid>
           <Cell col={12}>
