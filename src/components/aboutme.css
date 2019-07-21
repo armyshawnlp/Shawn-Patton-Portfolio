@@ -15,5 +15,46 @@
   font-weight: 500;
 }
 .cintainer{
+    
     padding:300px;
 }
+
+
+/* import React, { Component } from 'react';
+import { Grid, Cell } from "react-mdl";
+
+import "./aboutme.css";
+class About extends Component {
+    render() {
+        return(
+       
+<div>
+        <Grid>
+          <Cell col={4}>
+<div className="cintainer">
+<div class="demo-card-image mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">my boys</span>
+  </div>
+</div>
+</div>
+</Cell>
+ <Cell className="resume-right-col" col={8}>
+ <hr style={{ borderTop: "3px solid #0F05E3", width: "75%" }} />
+ <p>Directly out of high school I went into the Army. I loved being a system/network admin in the army. I have been at my current job since getting out and</p>
+ <p>now seeking another challenge I am passionate about. </p>
+<br></br>
+ <p>I spend most of my time chasing these guys around, doing home projects, and working on coding projects. I enjoy learning the latest trends and seeing </p>
+ <p>how they work. After graduating in August I geared my focus on Javescript frameworks. I started with Angular and now enjoy using React. I also enjoy </p>
+ <p>fishing, bjj, and bike riding.</p>
+
+
+ </Cell>
+</Grid>
+</div>
+        )
+    }
+}
+
+export default About;*/

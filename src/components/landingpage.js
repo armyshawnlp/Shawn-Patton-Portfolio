@@ -17,7 +17,7 @@ class Landing extends Component {
 
               
 
-              <p>HTML/CSS | Bootstrap | Javascript | React | Ruby</p>
+              <p>HTML/CSS/Javascript | Bootstrap | SQL | React | Ruby</p>
               <hr />
               <div className="social-links">
                 {/* LinkedIn */}
